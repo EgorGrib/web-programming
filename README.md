@@ -1,2 +1,2 @@
 # web-programming
-Шарапков Егор Викторович, M33081
+Sharapkov Egor, M33081
