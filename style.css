@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(../img/skyes.png) ;
+	font-size: 30px;
+	color: khaki;
+	padding: 8px;
+	text-align: center;
+	background-position: cover;
+}
+
+body {
+	font-family: Calibri;
+}
+
+.code {
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	background-color: blue;
+	display: inline-block;
+	border: 5px solid #79563a;
+}
+
+.ascii {
+	padding: 10px;
+	color: white;
+}
+
+main {
+	background: url(../img/soil.jpg);
+	width: 100%;
+	text-align: center;
+}
+
+footer {
+	background: url(../img/stone.jpg);
+	font-size: 30px;
+	color: khaki;
+	padding: 8px;
+}
