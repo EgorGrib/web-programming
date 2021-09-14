@@ -9,7 +9,6 @@ header {
 	color: khaki;
 	padding: 8px;
 	text-align: center;
-	background-position: cover;
 }
 
 body {
@@ -24,11 +23,18 @@ body {
 	background-color: blue;
 	display: inline-block;
 	border: 5px solid #79563a;
+	margin: 10px;
 }
 
 .ascii {
 	padding: 10px;
 	color: white;
+	font-size: 16px;
+	text-align: center;
+	background-color: blue;
+	display: inline-block;
+	border: 5px solid #79563a;
+	margin: 10px;
 }
 
 main {
