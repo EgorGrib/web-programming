@@ -1,0 +1,16 @@
+header {
+	background-color: #B0E0E6;
+	width: 100%;
+	left: 0;
+	font-size: 30px;
+}
+
+body {
+	font-family: Calibri;
+}
+
+footer {
+	background-color: #B0E0E6;
+	width: 100%;
+	font-size: 20px;
+}
