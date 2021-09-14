@@ -8,7 +8,6 @@ header {
 	font-size: 30px;
 	color: white;
 	padding: 8px;
-	text-align: center;
 	text-shadow: black 2px 3px 4px;
 }
 
@@ -21,6 +20,7 @@ header {
 #navbar li {
 	display: inline;
     vertical-align: middle;
+    margin-left: 10px;
 }
 
 #navbar li+li {
@@ -28,7 +28,7 @@ header {
 }
 
 #navbar {
-	margin-left: -53%;
+
 }
 
 body {
