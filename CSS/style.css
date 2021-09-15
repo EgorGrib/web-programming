@@ -8,7 +8,7 @@ header {
 	font-size: 30px;
 	color: white;
 	padding: 8px;
-	text-shadow: black 2px 3px 4px;
+	text-shadow: black 3px 4px 4px;
 }
 
 #logo {
@@ -23,12 +23,17 @@ header {
     margin-left: 10px;
 }
 
-#navbar li+li {
-	margin-left: 30px;
+#navbar a {
+	text-decoration: none;
+	color: white;
 }
 
-#navbar {
+#navbar li+li+li {
+    margin-left: 30px;
+}
 
+#myname {
+	margin-right: 30px;
 }
 
 body {
@@ -36,10 +41,10 @@ body {
 }
 
 #h-code {
-	margin: 10px 10px 0px 10px;
 	padding: 10px;
+	width: fit-content;
+	margin: 0 auto;
 	background-color: #79563a;
-	display: inline-block;
 	color: white;
 	font-size: 20px;
 	border: 5px solid black;
@@ -50,18 +55,17 @@ body {
 	padding: 10px;
 	color: white;
 	font-size: 16px;
-	text-align: center;
 	background-color: blue;
-	display: inline-block;
 	border: 5px solid #79563a;
-	margin: 10px;
+	margin: 0 auto;
+	width: fit-content;
 }
 
 #h-ascii {
-	margin: 10px 10px 0px 10px;
 	padding: 10px;
+	width: fit-content;
+	margin: 0 auto;
 	background-color: #79563a;
-	display: inline-block;
 	color: white;
 	font-size: 20px;
 	border: 5px solid black;
@@ -72,17 +76,14 @@ body {
 	padding: 10px;
 	color: white;
 	font-size: 16px;
-	text-align: center;
 	background-color: blue;
-	display: inline-block;
 	border: 5px solid #79563a;
-	margin: 10px;
+	margin: 0 auto;
+	width: fit-content;
 }
 
 main {
 	background: url(../img/soil.jpg);
-	width: 100%;
-	text-align: center;
 }
 
 footer {
