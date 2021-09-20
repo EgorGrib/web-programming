@@ -84,6 +84,7 @@ body {
 
 main {
 	background: url(../img/soil.jpg);
+	height: 80vh;
 }
 
 footer {
@@ -92,4 +93,9 @@ footer {
 	color: white;
 	padding: 8px;
 	text-shadow: black 2px 3px 4px;
+
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }
