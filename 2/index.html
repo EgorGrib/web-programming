@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/f95.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Шарапков Егор</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Шарапков Егор Викторович, М33081</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#aboutme">О себе</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+                <li><a href="index.html#quo">Цитата</a></li>
+                <li><a href="index.html#bubble">Код</a></li>
+                <li><a href="index.html#ascii">ASCII art</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3 class="about" id="aboutme">О себе</h3>
+            <ul>
+                <li>Учусь в университете ИТМО на 3-ем курсе, группа М33081.</li>
+                <li><strong>Направление подготовки:</strong> 09.03.02 Информационные системы и технологии.</li>
+                <li><strong>Навыки:</strong></li>
+                <ul>
+                    <li>Базовые знания C/C++.</li>
+                    <li>Базовые знания Java.</li>
+                    <li>Базовые знания Python.</li>
+                    <li>Начинал изучать C#.</li>
+                    <li>SQL.</li>
+                    <li>Английский B2.</li>
+                    <li>Планирую изучить HTML/CSS, js, а также несколько фреймворков.</li>
+                    <li>Планирую углубиться в какой либо язык, пока что не могу определиться с тем, чего хочу -_-.</li>
+                </ul>
+                <li><strong>Интересы:</strong></li>
+                <ul>
+                    <li>Люблю музыку. Слушать, исполнять, сочинять.</li>
+                    <li>Часто занимаюсь фото/видео съемкой. Фотографирую всё и всех подряд. Нравится процесс видеомонтажа.</li>
+                    <li>Люблю играть в карточную игру 6+ HearthStone.</li>
+                </ul>
+            </ul>
+            <h3 id="contact">Контакты</h3>
+            <ul>
+                <li><a href="https://github.com/EgorGrib">GitHub</a></li>
+                <li><a href="https://www.instagram.com/lesnikgriboed/">Instagram</a></li>
+                <li><a href="https://vk.com/id188499112">VK</a></li>
+                <li><a href="https://t.me/egorsharapkov">Telegram</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3 id="quo">Хорошая цитата.</h3>
+            <q>Смерть стоит того, чтобы жить.</q><sub> Виктор Цой.</sub>
+            <h3 id="bubble">Сортировка пузырьком</h3>
+            <pre><code>public static void bubbleSort(int arr[]) {
+    int n = arr.length;
+    for (int i = 0; i < n-1; i++)
+        for (int j = 0; j < n-i-1; j++)
+            if (arr[j] > arr[j+1]) {
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+}</code></pre>
+            <h3 id="ascii">Чеширский Кот</h3>
+            <pre>	   .'\   /`.
+         .'.-.`-'.-.`.
+    ..._:   .-. .-.   :_...
+  .'    '-.(o ) (o ).-'    `.
+ :  _    _ _`~(_)~`_ _    _  :
+:  /:   ' .-=_   _=-. `   ;\  :
+:   :|-.._  '     `  _..-|:   :
+ :   `:| |`:-:-.-:-:'| |:'   :
+  `.   `.| | | | | | |.'   .'
+    `.   `-:_| | |_:-'   .'
+      `-._   ````    _.-'
+          ``-------''</pre>
+        </section>
+        <section>
+            <h3>Фотокарточка</h3>
+            <img src="img/image.JPG">
+        </section>
+    </main>
+    <footer>
+        ©Санкт-Петербург, 2021.
+    </footer>
+</div>
+</body>
+</html>
