@@ -1,0 +1,91 @@
+body {
+
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #ababab;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.device {
+    color: #000000;
+}
+
+.navbar .nav-link:hover .device {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
+.navbar .navbar-brand:hover .brand-name {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
+.nav-link {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.album {
+    margin-bottom: 50px;
+    font-size: larger;
+}
+
+.meta {
+    font-size: smaller;
+    color: #999;
+}
+
+.products {
+    border-radius: 4px;
+}
+
+.products:hover {
+    box-shadow: 0 0 10px black;
+    transition: 0.3s;
+}
+
+p {
+    margin: 0;
+}
+
+/*
+.basket {
+    display: none;
+}
+*/
+
+img {
+    max-width: 100%;
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #c0baba;
+    transition: 0.3s;
+    border-radius: 1px;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-item:hover::after {
+        width: 0;
+    }
+}
