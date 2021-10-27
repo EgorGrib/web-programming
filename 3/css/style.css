@@ -1,5 +1,7 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -7,10 +9,14 @@ a {
     color: black !important;
 }
 
+.container {
+    background: white;
+}
+
 .navbar {
     background: #fff;
     border-bottom: 1px solid #ababab;
-    margin-bottom: 50px;
+    #margin-bottom: 48px;
     font-size: 20px;
 }
 
@@ -28,18 +34,14 @@ a {
     transition: 0.4s;
 }
 
-.nav-link {
-
-}
-
 h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
 
 .album {
-    margin-bottom: 50px;
-    font-size: larger;
+    margin-bottom: 48px;
+    font-size: 24px;
 }
 
 .meta {
@@ -48,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .products {
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .products:hover {
@@ -60,17 +62,11 @@ p {
     margin: 0;
 }
 
-/*
-.basket {
-    display: none;
-}
-*/
-
 img {
     max-width: 100%;
 }
 
-.nav-item::after {
+.nav-item::after, .brand-name::after  {
     content: '';
     display: block;
     width: 0;
@@ -80,7 +76,7 @@ img {
     border-radius: 1px;
 }
 
-.nav-item:hover::after {
+.nav-item:hover::after, .brand-name:hover::after {
     width: 100%;
 }
 
@@ -88,4 +84,30 @@ img {
     .nav-item:hover::after {
         width: 0;
     }
+}
+
+@media only screen and (max-width: 992px) {
+    .album {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .album {
+        font-size: 18px;
+    }
+}
+
+
+.my-carousel {
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.my-carousel .carousel-item {
+    max-height: 50vh;
+}
+
+.my-carousel .carousel-item img {
+    object-fit: cover;
 }
