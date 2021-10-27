@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .album {
-    margin-bottom: 48px;
+    margin-bottom: 80px;
     font-size: 24px;
 }
 
@@ -110,4 +110,12 @@ img {
 
 .my-carousel .carousel-item img {
     object-fit: cover;
+}
+
+.about p {
+    font-size: 30px;
+}
+
+.about img {
+
 }
