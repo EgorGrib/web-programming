@@ -16,7 +16,6 @@ a {
 .navbar {
     background: #fff;
     border-bottom: 1px solid #ababab;
-    #margin-bottom: 48px;
     font-size: 20px;
 }
 
@@ -112,10 +111,15 @@ img {
     object-fit: cover;
 }
 
+.about {
+    margin-bottom: 100px;
+}
+
 .about p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .about img {
-
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
 }
