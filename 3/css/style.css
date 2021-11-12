@@ -23,6 +23,15 @@ a {
     color: #000000;
 }
 
+.basket2 {
+    display: none;
+}
+
+.basket2:hover .device {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
 .navbar .nav-link:hover .device {
     color: #ea4848;
     transition: 0.4s;
@@ -86,6 +95,12 @@ img {
     .about p {
         font-size: 18px !important;
     }
+    .basket {
+        display: none;
+    }
+    .basket2 {
+        display: block;
+    }
 }
 
 @media (max-width: 992px) {
@@ -108,7 +123,7 @@ img {
 }
 
 .about {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .about p {
@@ -119,4 +134,8 @@ img {
 .about img {
     box-shadow: 0 0 10px black;
     border-radius: 10px;
+}
+
+.footer {
+    background: ghostwhite;
 }
