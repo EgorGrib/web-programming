@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .album {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     font-size: 24px;
 }
 
@@ -79,24 +79,20 @@ img {
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .nav-item:hover::after {
         width: 0;
     }
+    .about p {
+        font-size: 18px !important;
+    }
 }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
     .album {
         font-size: 18px;
     }
 }
-
-@media only screen and (max-width: 768px) {
-    .album {
-        font-size: 18px;
-    }
-}
-
 
 .my-carousel {
     padding: 0;
@@ -116,7 +112,8 @@ img {
 }
 
 .about p {
-    font-size: 25px;
+    font-size: 26px;
+    text-align: justify;
 }
 
 .about img {
