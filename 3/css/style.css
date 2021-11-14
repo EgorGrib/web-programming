@@ -23,6 +23,14 @@ a {
     color: #000000;
 }
 
+.modal-body {
+    padding: 10px;
+}
+
+.tright {
+    text-align: right;
+}
+
 .basket2 {
     display: none;
 }
@@ -48,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .album {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     font-size: 24px;
 }
 
@@ -64,10 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 .products:hover {
     box-shadow: 0 0 10px black;
     transition: 0.3s;
-}
-
-p {
-    margin: 0;
 }
 
 img {
@@ -106,6 +110,8 @@ img {
 @media (max-width: 992px) {
     .album {
         font-size: 18px;
+        margin-bottom: 50px;
+
     }
 }
 

@@ -35,15 +35,62 @@
                     </li>
                 </ul>
                 <div class="basket">
-                    <a href="#"><img src="img/basket.svg" alt="" width="30"></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBasket"><img src="img/basket.svg" alt="" width="30"></a>
                 </div>
                 <div class="basket2">
-                    <a href="#"><span class="device">Корзина</span></a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalBasket"><span class="device">Корзина</span></a>
                 </div>
             </div>
         </div>
     </nav>
 
+    <div class="modal fade" id="modalBasket" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Наименование товара</th>
+                            <th scope="col">Цена</th>
+                            <th scope="col">Количество</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>iPhone 13 (256ГБ)</td>
+                            <td class="tright">89 990 ₽</td>
+                            <td class="tright">1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>MacBook Pro 13 (M1, 2020)</td>
+                            <td class="tright">142 990 ₽</td>
+                            <td class="tright">1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Watch Series 7</td>
+                            <td class="tright">39 490 ₽</td>
+                            <td class="tright">1</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h5>Итого: 272 470 ₽</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary">Купить</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-carousel" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -124,6 +171,8 @@
         </div>
     </div>
 
+
+
     <footer class="footer text-center border-top p-3">
         <div class="row">
             <div class="col-12">
@@ -131,44 +180,7 @@
             </div>
         </div>
     </footer>
-
-    <!--
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="card">
-                    <img class="card-img-top p-3" src="img/mac.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <img class="card-img-top" src="img/ipad.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <img class="card-img-top p-3" src="img/phone.webp" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
