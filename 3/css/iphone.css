@@ -22,18 +22,10 @@ a {
     color: black !important;
 }
 
-.container {
-    background: white;
-}
-
 .navbar {
     background: #fff;
     border-bottom: 1px solid #ababab;
     font-size: 20px;
-}
-
-.device {
-    color: #000000;
 }
 
 .modal-body {
@@ -63,25 +55,6 @@ a {
     transition: 0.4s;
 }
 
-.album {
-    margin-bottom: 80px;
-    font-size: 24px;
-}
-
-.meta {
-    font-size: smaller;
-    color: #999;
-}
-
-.products {
-    border-radius: 8px;
-}
-
-.products:hover {
-    box-shadow: 0 0 10px black;
-    transition: 0.3s;
-}
-
 img {
     max-width: 100%;
 }
@@ -104,9 +77,6 @@ img {
     .nav-item:hover::after {
         width: 0;
     }
-    .about p {
-        font-size: 18px !important;
-    }
     .basket {
         display: none;
     }
@@ -116,38 +86,7 @@ img {
 }
 
 @media (max-width: 992px) {
-    .album {
-        font-size: 18px;
-        margin-bottom: 50px;
 
-    }
-}
-
-.my-carousel {
-    padding: 0;
-    margin-bottom: 50px;
-}
-
-.my-carousel .carousel-item {
-    max-height: 50vh;
-}
-
-.my-carousel .carousel-item img {
-    object-fit: cover;
-}
-
-.about {
-    margin-bottom: 30px;
-}
-
-.about p {
-    font-size: 26px;
-    text-align: justify;
-}
-
-.about img {
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
 }
 
 .wrapper {
@@ -157,7 +96,26 @@ img {
 }
 
 .content {
+    margin-top: 50px;
     flex: 1 0 auto;
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 26px;
+}
+
+.text-phone {
+    #border: 2px solid black;
+    background: whitesmoke;
+}
+
+.buy {
+    margin-bottom: 20px;
+    width: 70%;
 }
 
 .footer {
