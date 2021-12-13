@@ -110,6 +110,11 @@ p {
     background: ghostwhite;
 }
 
+.active-item {
+    #color: #ea4848 !important;
+    text-shadow: 0 0 1px black;
+}
+
 @media (max-width: 768px) {
     .nav-item:hover::after {
         width: 0;

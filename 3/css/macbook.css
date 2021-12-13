@@ -36,6 +36,11 @@ a {
     text-align: right;
 }
 
+.active-item {
+    #color: #ea4848 !important;
+    text-shadow: 0 0 1px black;
+}
+
 .basket2 {
     display: none;
 }

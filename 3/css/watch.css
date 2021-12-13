@@ -73,7 +73,10 @@ img {
     width: 100%;
 }
 
-
+.active-item {
+    #color: #ea4848 !important;
+    text-shadow: 0 0 1px black;
+}
 
 .wrapper {
     display: flex;
