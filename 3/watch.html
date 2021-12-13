@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/loadTime.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/wishList.js"></script>
 </head>
 <body>
 
@@ -96,7 +97,20 @@
         </div>
 
         <div class="content">
-            <h3 style="margin: 50px;">iPhone 13</h3>
+            <div class="container">
+                <form onsubmit="newElement()">
+                    <label for="input"></label><input type="text" id="input" placeholder="watch series 7" required>
+                </form>
+                <ul id="tasks" class="border">
+                    <template id="line">
+                        <li class ="taskLine">
+                            <br>
+                            <img src="img/x.svg" class="delete" alt="...">
+                            <img src="img/check.svg" class="delete" alt="...">
+                        </li>
+                    </template>
+                </ul>
+            </div>
         </div>
 
 
