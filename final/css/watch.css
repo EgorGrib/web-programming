@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #ababab;
+    font-size: 20px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.tright {
+    text-align: right;
+}
+
+.basket2 {
+    display: none;
+}
+
+.basket2:hover .device {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
+.navbar .nav-link:hover .device {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
+.navbar .navbar-brand:hover .brand-name {
+    color: #ea4848;
+    transition: 0.4s;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-item::after, .brand-name::after  {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #c0baba;
+    transition: 0.3s;
+    border-radius: 1px;
+}
+
+.nav-item:hover::after, .brand-name:hover::after {
+    width: 100%;
+}
+
+.active-item {
+    #color: #ea4848 !important;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    margin-top: 50px;
+    flex: 1 0 auto;
+}
+
+.name {
+    margin-bottom: 90px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+.text-phone {
+    border-radius: 15px;
+    background: whitesmoke;
+}
+
+.buy {
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.footer {
+    flex: 0 0 auto;
+    background: ghostwhite;
+}
+
+footer a {
+    color: #093081 !important;
+}
+
+@media (max-width: 768px) {
+    .nav-item:hover::after {
+        width: 0;
+    }
+    .basket {
+        display: none;
+    }
+    .basket2 {
+        display: block;
+    }
+    p {
+        font-size: 18px;
+    }
+    .name {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+/*wish*/
+
+form {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+form input, form button {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgba(206, 206, 206, 0.52);
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+form button {
+    color: #008B8B;
+    background: #F6F6f6;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #008B8B;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wish-items {
+    min-width: 350px;
+    list-style: none;
+}
+
+.wish-name {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6f6;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid rgba(206, 206, 206, 0.52);
+    border-radius: 8px;
+}
+
+.delete-button {
+    padding: 20px;
+    border: 1px solid rgba(206, 206, 206, 0.52);
+    border-radius: 8px;
+    background: url("../img/x.svg") no-repeat center;
+}
+
+.delete-button:hover {
+    box-shadow: 4px 5px 2px #b2b2b2;
+}
+
+ul {
+    padding: 0;
+}
+
+.checked {
+    text-decoration: line-through;
+}
