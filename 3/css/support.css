@@ -92,13 +92,13 @@ img {
 
 .loader {
     position: absolute;
-    top: 38vh;
+    top: 42vh;
     left: 50vw;
 }
 
 h2 {
+    text-align: center;
     margin-bottom: 50px;
-    margin-left: 50px;
 }
 
 .content .table{
@@ -168,7 +168,7 @@ h2 {
         font-size: 0.8rem;
     }
     .loader {
-        top: 38vh;
+        top: 45vh;
         left: 50vw;
     }
 
