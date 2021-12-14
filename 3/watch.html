@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/loadTime.js"></script>
     <script src="js/navbar.js"></script>
-    <script src="js/wishList.js"></script>
 </head>
 <body>
 
@@ -98,31 +97,42 @@
 
         <div class="content">
             <div class="container">
-                <form onsubmit="newElement()">
-                    <label for="input"></label><input type="text" id="input" placeholder="watch series 7" required>
-                </form>
-                <ul id="tasks" class="border">
-                    <template id="line">
-                        <li class ="taskLine">
-                            <br>
-                            <img src="img/x.svg" class="delete" alt="...">
-                            <img src="img/check.svg" class="delete" alt="...">
-                        </li>
-                    </template>
+                <div class="text-center">
+                    <h4>Упс, пока что аксессуары отсутствуют в продаже. Вы можете предложить что-нибудь, что вас интересует.</h4>
+                </div>
+            </div>
+
+            <template id=task>
+                <li class="item">
+                    <input type="checkbox" class="checkbox">
+                    <p class="wish-name"></p>
+                    <button class="delete-button">
+                    </button>
+                </li>
+            </template>
+            <form class="wish-form">
+                <input type="text" class="wish-input" placeholder="Предложите продукт...">
+                <button type="submit" class="add-button">Добавить</button>
+            </form>
+            <div class="container">
+                <ul class="wish-items">
                 </ul>
             </div>
         </div>
 
 
+
+
         <footer class="footer text-center border-top p-4">
             <div class="row">
                 <div class="col-12 pb-2">
-                    <h5>Apple Market, Saint-Petersburg</h5>
+                    <h5>Apple Market, Saint-Petersburg. <a href="support.html"><img src="img/headset.svg" width="22"> Поддержка</a></h5>
                 </div>
             </div>
         </footer>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/wishList.js" type="module"></script>
 </body>
 </html>
