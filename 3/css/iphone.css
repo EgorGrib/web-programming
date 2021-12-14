@@ -75,7 +75,7 @@ img {
 
 .active-item {
     #color: #ea4848 !important;
-    text-shadow: 0 0 1px black;
+    font-weight: bold;
 }
 
 .wrapper {

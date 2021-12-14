@@ -73,8 +73,6 @@ img {
     width: 100%;
 }
 
-
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -112,7 +110,7 @@ p {
 
 .active-item {
     #color: #ea4848 !important;
-    text-shadow: 0 0 1px black;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
